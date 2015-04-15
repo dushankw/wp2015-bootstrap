@@ -1,5 +1,5 @@
 <?php
-    class output {
+    class templater {
         private $template;
         private $pagevars = [];
 
@@ -12,7 +12,6 @@
         }
 
         public function render() {
-            # NOTE: Be careful with extract() as security issues can arise from misuse
             extract($this->pagevars);
             ob_start();
             require_once($this->template);
