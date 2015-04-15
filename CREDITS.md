@@ -1,3 +1,3 @@
 Credits
 =====
-Inspiration taken from PIP MVC Framework
+Inspiration for templater taken from PIP MVC Framework
