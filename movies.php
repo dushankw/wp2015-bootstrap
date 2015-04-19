@@ -6,7 +6,7 @@
         # Instantiate a new view
         $view = new templater('views/movies-view.php');
 
-        # Basic protection from script injection
+        # Basic protection from script injection (you MUST do more if this will be sent to a database, see https://www.owasp.org/index.php/SQL_Injection)
         $output = htmlentities($_GET['film']);
 
         # Handle bad inputs
