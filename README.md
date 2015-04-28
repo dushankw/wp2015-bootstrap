@@ -1,3 +1,9 @@
+Design
+=====
+* You may be familiar with MVC (http://en.wikipedia.org/wiki/Model-view-controller)
+* You will see this layout is similar in some respects (the big difference is there are no Models)
+* Think of it as a Controller-View layout
+
 Setup
 =====
 * cd ~/public_html/
