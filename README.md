@@ -1,8 +1,8 @@
-Design
+Design Information
 =====
 * You may be familiar with MVC (http://en.wikipedia.org/wiki/Model-view-controller)
-* You will see this layout is similar in some respects (the big difference is there are no Models)
-* Think of it as a Controller-View layout
+* You will see this layout is similar in some respects (the big difference is there are no Models and no URL routing)
+* Think of it as a Controller-View layout (most advantages of MVC are still applicable)
 
 Setup
 =====
